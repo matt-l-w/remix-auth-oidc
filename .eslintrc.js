@@ -9,7 +9,7 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
-	plugins: ['@typescript-eslint', 'jest'],
+	plugins: ['@typescript-eslint'],
 	rules: {
 	},
 };

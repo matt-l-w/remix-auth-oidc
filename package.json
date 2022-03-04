@@ -7,8 +7,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "typecheck": "tsc --project tsconfig.json --noEmit",
-    "lint": "eslint --ext .ts,.tsx src/",
-    "test": "jest"
+    "lint": "eslint --ext .ts,.tsx src/"
   },
   "repository": {
     "type": "git",
@@ -40,8 +39,6 @@
     "@typescript-eslint/parser": "^5.13.0",
     "eslint": "^8.10.0",
     "eslint-config-xo": "^0.40.0",
-    "eslint-plugin-jest": "^26.1.1",
-    "jest": "^27.5.1",
     "typescript": "^4.6.2"
   },
   "dependencies": {
