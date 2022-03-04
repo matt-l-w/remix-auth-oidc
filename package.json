@@ -1,0 +1,44 @@
+{
+  "name": "remix-auth-oidc",
+  "version": "1.0.0",
+  "description": "OpenIDConnect authentication strategy for remix-auth",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-l-w/remix-auth-oidc.git"
+  },
+  "keywords": [
+    "remix",
+    "remix-auth",
+    "auth",
+    "authentication",
+    "strategy",
+    "oidc",
+    "openidconnect",
+    "oauth"
+  ],
+  "author": "Matt Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-l-w/remix-auth-oidc/issues"
+  },
+  "homepage": "https://github.com/matt-l-w/remix-auth-oidc#readme",
+  "files": [
+    "build",
+    "package.json",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "eslint-config-xo": "^0.40.0",
+    "eslint-plugin-jest": "^26.1.1",
+    "jest": "^27.5.1",
+    "typescript": "^4.6.2"
+  }
+}
